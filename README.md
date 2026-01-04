@@ -125,7 +125,7 @@ CREATE TABLE spotify (
     -- ... (see full schema in SQL file)
 );
 
-
+```
 ## 📊 Query Categories
 
 ### 🔵 Easy Category (5 Queries)
@@ -192,4 +192,5 @@ This project is open source and available for educational purposes.
 ---
 
 ⭐ If you find this project helpful, please consider giving it a star!
+
 
