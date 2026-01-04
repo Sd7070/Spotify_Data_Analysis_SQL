@@ -1,5 +1,7 @@
 # 🎵 Spotify Data Analysis - SQL Project
 
+![Spotify Data Analysis](spotify-piano-and-headphones-psvd4nwl5u4foka8.jpg)
+
 A comprehensive SQL-based data analysis project exploring Spotify music data with exploratory data analysis (EDA) and queries categorized by difficulty levels (Easy, Medium, and Advanced).
 
 ## 📋 Table of Contents
@@ -66,11 +68,11 @@ The `spotify` table contains the following columns:
 ## 📁 Project Structure
 
 ```
-Spotify_data_analysis_SQL/
+Spotify_Data_Analysis_SQL/
 │
 ├── spotify_data_analysis.sql    # Main SQL script with all queries
-├── archive/
-│   └── cleaned_data.csv      # Dataset file
+├── cleaned_data.csv             # Dataset file
+├── spotify-piano-and-headphones-psvd4nwl5u4foka8.jpg  # Project image
 └── README.md                     # Project documentation
 ```
 
@@ -99,12 +101,12 @@ Spotify_data_analysis_SQL/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Spotify_data_analysis_SQL.git
-   cd Spotify_data_analysis_SQL
+   git clone https://github.com/Sd7070/Spotify_Data_Analysis_SQL.git
+   cd Spotify_Data_Analysis_SQL
    ```
 
 2. **Import the dataset**
-   - Import `archive/cleaned_data.csv` into your database
+   - Import `cleaned_data.csv` into your database
    - Create the table structure using the CREATE TABLE statement in the SQL file
    - Load the CSV data into the `spotify` table
 
@@ -167,7 +169,7 @@ CREATE TABLE spotify (
 
 ## 📦 Dataset
 
-- **File**: `archive/cleaned_data.csv`
+- **File**: `cleaned_data.csv`
 - **Format**: CSV with headers
 - **Content**: Spotify music data with audio features and streaming metrics
 - **Data Quality**: Pre-cleaned dataset (zero-duration tracks removed)
